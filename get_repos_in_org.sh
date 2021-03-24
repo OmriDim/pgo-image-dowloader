@@ -7,12 +7,12 @@
 # set username, password, and organization
 UNAME="" # add user 
 UPASS="" # add password
+operator_versions="" # add wanted operator version
+old_version="" # add old operator version
 ORG="crunchydata"
-operator_version="4.5.1"
-old_version=${postgres_versions[0]}
 image_dir='/mnt/'
-# -------
 
+# -------
 # check supported versions
 if [[ $operator_version == "4.6.1" ]]; then
   postgres_versions=('13.2' '12.6' '11.11' '10.16' '9.6.21')	
