@@ -17,7 +17,7 @@ image_dir='/mnt/'
 if [[ $operator_version == "4.6.1" ]]; then
   postgres_versions=('13.2' '12.6' '11.11' '10.16' '9.6.21')	
 elif [[ $operator_version == "4.5.1" ]]; then
-  postgres_versions=('11.10' '10.15' '9.6.20' '9.5.24') #'13.1' '12.5'
+  postgres_versions=('13.1' '12.5' '11.10' '10.15' '9.6.20' '9.5.24') 
 else
   echo "operator version is not supported" && exit
 fi
