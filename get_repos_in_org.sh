@@ -21,7 +21,6 @@ elif [[ $operator_version == "4.5.1" ]]; then
 else
   echo "operator version is not supported" && exit
 fi
-old_version=${postgres_versions[0]}
 
 set -e
 echo
